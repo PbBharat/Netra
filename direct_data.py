@@ -3,7 +3,7 @@ from fuzzywuzzy import fuzz
 
 
 def data_import(drug_name):
-    df= pd.read_csv("/home/aneesh.paul/Downloads/Drugs Data - Sheet1.csv")
+    df= pd.read_csv("Drugs Data - Sheet1.csv")
 
     # List to hold the indices of rows with fuzzy partial ratio > 90
     # selected_indices = []
