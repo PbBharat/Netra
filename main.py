@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, send_file
-from PIL import Image
+#from PIL import Image
 import os
 import numpy as np
 import tempfile
@@ -28,6 +28,10 @@ def analyze_image():
         return jsonify({'result': result}), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+        
+@app.route('/health')
+def health():
+    return 'Bharat'
     
 
 
