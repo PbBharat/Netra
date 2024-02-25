@@ -3,8 +3,8 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/aneesh.paul/Downloads/team
 
 import json
 
-from PIL import Image as PIL_Image
-from PIL import ImageOps as PIL_ImageOps
+#from PIL import Image as PIL_Image
+#from PIL import ImageOps as PIL_ImageOps
 
 from datetime import datetime
 
