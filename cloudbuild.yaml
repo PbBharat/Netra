@@ -5,7 +5,6 @@ steps:
       gcloud builds submit --tag "asia-south1-docker.pkg.dev/team-medy-buddy/netra-source/netra:${TAG}"
     env:
      - 'TAG=$SHORT_SHA'
-
    
   # Application deployment
   - name: 'gcr.io/cloud-builders/gcloud'
