@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image
+#from PIL import Image
 
 def main():
     st.title("Image Upload and Audio Play App")
