@@ -1,5 +1,5 @@
-import os
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/aneesh.paul/Downloads/team-medy-buddy-aa4016a467d2.json"
+# import os
+# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/aneesh.paul/Downloads/team-medy-buddy-aa4016a467d2.json"
 
 import json
 
